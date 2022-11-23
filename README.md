@@ -46,8 +46,4 @@ make clean && make -j$(nproc) deb-pkg
 cd ..
 sudo dpkg -i *.deb
 ```
-or you can install 
-```
-cd ..
-sudo apt install linux-headers-6.0.9-rt14-magnolia_6.0.9-rt14-magnolia-1_amd64.deb linux-image-6.0.9-rt14-magnolia_6.0.9-rt14-magnolia-1_amd64.deb linux-libc-dev_6.0.9-rt14-magnolia-1_amd64.deb
-```
+
